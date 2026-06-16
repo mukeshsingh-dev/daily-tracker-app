@@ -1,0 +1,13 @@
+{
+  "name": "ritual-habit-coach",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "24.x" },
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs"
+  },
+  "devDependencies": {
+    "vercel": "^65.2.0"
+  }
+}
