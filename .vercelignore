@@ -1,0 +1,6 @@
+server.mjs
+node_modules/
+data/
+.env.local
+package.json
+package-lock.json

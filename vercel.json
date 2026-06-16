@@ -1,1 +1,10 @@
-{}
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "builds": [
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "api/auth.js", "use": "@vercel/node" },
+    { "src": "api/auth/*.js", "use": "@vercel/node" },
+    { "src": "api/state.js", "use": "@vercel/node" },
+    { "src": "api/chat.js", "use": "@vercel/node" }
+  ]
+}
